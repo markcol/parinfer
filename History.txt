@@ -1,0 +1,8 @@
+== 1.0
+
+--- New Features:
+  * Port Clojure code to Emacs Lisp
+  * Create ELPA-style package for installation
+  
+--- Bugfixes:
+  *

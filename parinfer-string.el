@@ -1,3 +1,5 @@
+;; parinfer-string.el --
+
 (defun parinfer-insert-string (orig idx insert)
   (concat (substring orig 0 idx)
 	  insert

@@ -1,3 +1,5 @@
+;; parinfer-utils.el --
+
 (defun parinfer-assoc-cdr (key alist)
   (cdr (assoc key alist)))
 

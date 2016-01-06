@@ -1,0 +1,19 @@
+;;; -*- Mode: Emacs-Lisp -*-
+
+(elpakit
+ :version "1.0beta"
+ :doc "Minor mode for editing lispy code."
+;; :requires
+;; ((foo "1.0")
+;;  (bar "1.1"))
+ :files
+ ("parinfer.el"
+  "parinfer-indent-mode.el"
+  "parinfer-reader.el"
+  "parinfer-string.el"
+  "parinfer-utils.el")
+ :test
+ (:requires
+  ((ert))
+  :files
+  ("parinfer-tests.el"))

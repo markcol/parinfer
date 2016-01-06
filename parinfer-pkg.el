@@ -1,5 +1,5 @@
 (define-package
   "parinfer"
-  "1.0"
+  "0.1"
   "Minor mode for editing Lisp-like code"
-  (quote nil) ; no dependancies )
+  (quote nil)) ; no dependancies

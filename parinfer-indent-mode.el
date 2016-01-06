@@ -1,3 +1,5 @@
+;; parinfer-indent-mode.el -- indentation functions for parinfer
+
 (require 'cl-lib)
 (require 'parinfer-string)
 (require 'parinfer-reader)
@@ -96,3 +98,4 @@
 (cl-defun join (list &optional (delimiter ""))
   (mapconcat 'identity list delimiter))
 
+;; parinfer-indent-mode.el ends here

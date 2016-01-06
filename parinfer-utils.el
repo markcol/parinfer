@@ -1,4 +1,4 @@
-;; parinfer-utils.el --
+;; parinfer-utils.el -- utlity functions for parinfer mode
 
 (defun parinfer-assoc-cdr (key alist)
   (cdr (assoc key alist)))
@@ -46,3 +46,5 @@
   (mapcar 'cdr alist))
 
 (provide 'parinfer-util)
+
+;; parinfer-utils.el ends here

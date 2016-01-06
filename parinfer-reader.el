@@ -1,4 +1,4 @@
-;;; parinder-reader.el --
+;;; parinder-reader.el -- reader functions for parinfer mode
 
 (require 'parinfer-util)
 
@@ -179,3 +179,5 @@
     '()))
 
 (provide 'parinfer-reader)
+
+;; parinfer-reader.el ends here

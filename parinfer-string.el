@@ -1,4 +1,4 @@
-;; parinfer-string.el --
+;; parinfer-string.el -- string functions for parinfer
 
 (defun parinfer-insert-string (orig idx insert)
   (concat (substring orig 0 idx)
@@ -13,3 +13,5 @@
   (split-string text "\n"))
 
 (provide 'parinfer-string)
+
+;; parinfer-string.el ends here
